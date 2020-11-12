@@ -3,6 +3,10 @@
     margin: 0px auto;
 }
 
+.bg-theme-primary {
+    background-color: #28a745;
+}
+
 .header-search-container {
     display: flex !important;
     justify-content: center;
@@ -90,4 +94,8 @@
 .btn-custom:hover {
     background-color: #269941;
     border-color: #269941;
+}
+
+ul.navbar-nav.site-nav li.nav-item a.nav-link {
+    color: #ffffff;
 }
