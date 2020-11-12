@@ -1,3 +1,22 @@
+.header {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.header-search-container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    margin: 0px;
+}
+
+.search-form .form-group {
+    margin-bottom: 0px;
+}
+
 .searchbar {
     margin-bottom: auto;
     margin-top: auto;
@@ -46,4 +65,29 @@
     width: 200px;
     height: 80px;
     overflow: hidden;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item-count {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.btn-custom {
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+
+.btn-custom:hover {
+    background-color: #269941;
+    border-color: #269941;
 }
