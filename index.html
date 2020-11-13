@@ -17,8 +17,8 @@
     <header>
         <div class="container-fluid">
             <div class="header">
-                <div class="row">
-                    <div class="col-md-4 d-none d-xl-block d-lg-block d-md-block header-search-container">
+                <div class="row" style="">
+                    <div class="col-md-4 d-xl-flex d-lg-flex d-md-flex header-search-container d-none">
                         <div class="mr-auto">
                             <form action="#" class="search-form">
                                 <div class="form-group">
@@ -33,15 +33,15 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-md-4 logo">
+                    <div class="col-md-4 col-6 logo">
                         <div class="header-logo mx-auto">
                             <a href="index.html">
                                 <img class="w-100" src="asset/image/logo/logo.png" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-4 cart">
-                        <div class="ml-auto">
+                    <div class="col-md-4 col-6 cart">
+                        <div class="md-ml-auto">
                             <a href="user/cheekout-page.html">
                                 <img src="asset/image/header/panier.svg" alt=""><span class="cart-item-count">0</span>
                             </a>
@@ -52,17 +52,25 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-theme-primary">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            <button class="navbar-toggler toggler_button" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="text-white"><i class="fas fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
                 <ul class="navbar-nav mx-auto site-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link fa fa-home text-white" style="font-size:17px;margin-top:5px;"
+                            href="#"></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Login & Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
@@ -79,11 +87,25 @@
                         </div>
                     </li>
                 </ul>
+                <div class="d-block d-sm-block d-md-none nav-search d-none">
+                    <div>
+                        <form action="#" class="search-form">
+                            <div class="form-group">
+                                <div class="h-100">
+                                    <div class="searchbar">
+                                        <input class="search_input" type="text" name="" placeholder="Search...">
+                                        <button type="submit" class="search_icon"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
     <section>
-        <h1>body</h1>
+       <h1>body</h1>
     </section>
     <footer>
         <div class="container-fluid text-center">
